@@ -38,11 +38,13 @@
 
 ### CLI版
 - Linux：
-  - Ubuntu 20+
+  - Ubuntu 22+
+  - debian 12+
   - 尚未进行更广泛的测试，但安装脚本有对各发行版提供支持。
+  ! 由于 `Apline` 缺少 `Glibc` 或许永远都不会提供支持。
 
 - macOS 15.0+
-- WSL2 至少搭配 Ubuntu 20+
+- WSL2 至少搭配 Ubuntu 22+
 
 > **版本状态**：macOS、CLI 版本正在公测中。CLI Windows版本稍后公测。Windows WinUI版本预计夏季公测。
 
